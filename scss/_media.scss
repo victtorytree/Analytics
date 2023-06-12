@@ -1,0 +1,212 @@
+@media screen and (max-width: 1280px) {
+    .a-col__picture_right {
+        margin-right: 0;
+    }
+    .a-col__picture_left {
+        margin-left: 0;
+    }
+    .price__row .slick-track {
+        column-gap: 25px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container {
+        max-width: 860px;
+    }
+    .intro__flex {
+        flex-wrap: wrap;
+        margin-top: 49px;
+    }
+    .intro__right {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        order: -1;
+    }
+    .img-2 {
+        display: none;
+    }
+    .img-1 {
+        display: none;
+    }
+    .img--mobile {
+        display: block;
+        position: relative;
+        left: 0;
+        max-width: 110%;
+    }
+    .intro__left {
+        margin-top: 0;
+        max-width: unset;
+    }
+    .intro {
+        padding-bottom: 130px;
+    }
+    .a-features__row {
+        margin-top: 40px;
+    }
+    .a-flex {
+        flex-direction: column;
+        row-gap: 20px;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    .a-flex:nth-child(2n+1) {
+        flex-direction: column-reverse;
+    }
+    .a-flex:last-of-type {
+        margin-bottom: 0;
+    }
+    .a-col__text {
+        margin-top: 0;
+        max-width: unset;    
+    }
+    .plan__name {
+        margin-top: 35px;
+    }
+    .plan__btn {
+        margin-bottom: 47px;
+    }
+    .plan {
+        padding: 0 35px;
+    }
+    .login {
+        justify-content: center;
+        row-gap: 80px;
+        padding: 100px 20px;
+    }
+    .login__right, .login__left {
+        width: 100%;
+        max-width: unset;
+    }
+    .login__brands {
+        justify-content: center;
+        max-width: unset;
+    }
+    .login__heading {
+        text-align: center;
+    }
+    .login__right {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .a-features__row {
+        flex-direction: column;
+        margin-bottom: 70px;
+        row-gap: 35px;
+    }
+    .a-features__col {
+        width: 100%;
+        text-align: left;
+    }
+    .a-features__col .xs-text {
+        margin-bottom: 9px;
+    }
+    .a-features__col .text {
+        max-width: unset;
+    }
+    .a-features__icon {
+        float: left;
+        margin-right: 27px;
+    }
+    .a-features__top {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .intro__title {
+        font-size: 45px;
+    }
+    .a-title {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .a-title {
+        font-size: 30px;
+        margin-bottom: 20px;
+        line-height: 35px;
+    }
+    .intro__flex {
+        margin-top: 29px;
+    }
+    .a-text {
+        font-size: 14px;
+        line-height: 140%;
+    }
+    .a-col__picture {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .a-flex {
+        margin-bottom: 40px;
+    }
+    .intro {
+        min-height: unset;
+    }
+    .intro__title {
+        font-size: 31px;
+    }
+    .intro__subtitle {
+        display: none;
+    }
+    .intro__subtitle--mobile {
+        display: block;
+        line-height: 27px;
+    }
+    .btn_main {
+        margin-top: 26px;
+        width: 100%;
+    }
+    .a-features__row {
+        margin-bottom: 71px;
+    }
+    .price {
+        padding-bottom: 200px;
+        padding-top: 240px;
+        margin-top: -100px;
+    }
+    .price__row {
+        padding: 0;
+    }
+    .plan__users, .plan__price::after {
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .plan__price {
+        margin-bottom: 50px;
+        margin-top: 18px;
+    }
+    .plan__name {
+        font-size: 25px;
+    }
+    .price__row .slick-track {
+        column-gap: 20px;
+    }
+    .price__title {
+        font-size: 30px;
+        text-align: left;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+    .price__subtitle {
+        margin-bottom: 47px;
+        text-align: left;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .login__left {
+        display: none;
+    }
+    .login {
+        padding: 35px 0;
+    }
+    .login__form {
+        padding: 0 20px;
+    }
+}

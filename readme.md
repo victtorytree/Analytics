@@ -1,0 +1,1 @@
+working on a final project marking the end of education at GeekBrains "Developer" program
